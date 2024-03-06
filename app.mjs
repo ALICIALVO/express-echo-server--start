@@ -10,7 +10,6 @@ const { PORT, HOST } = process.env;
 
 const app = express()
 
-// Use morgan middleware to log HTTP requests
 app.use(morgan('dev'));
 
 
